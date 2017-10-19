@@ -29,4 +29,4 @@ function semverGE() {
 # returns non zero if first value is greater or equal than a second
 semverGE $1 $2
 res=$?
-[ $res -eq 1 ] && { echo "ERROR: VERSION CANNOT BE SMALLER OR EQUAL TO CURRENT"; exit 1; }
+[ $res -eq 1 ] && { echo "ERROR: VERSION CANNOT BE SMALLER OR EQUAL TO THE CURRENT"; exit 1; }
